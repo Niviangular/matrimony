@@ -1,0 +1,60 @@
+.matrimony-image{
+    width: 100%;
+    position: fixed;
+}
+
+.picture{
+    margin: 10px;
+}
+.card-text{
+    font-size: 0.8rem;
+    margin-top: -.5rem;
+    font-weight: 500;
+}
+.card-title{
+    font-size: 1.3rem;
+}
+.btn-sty{
+    border-radius: 3rem;
+}
+
+.btnn-sty{
+    border-radius:3rem ;
+    background-color: white !important; 
+    border-color: black;
+}
+
+.header1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 5rem;
+   margin-top: 2.8rem;
+}
+
+.header{
+    font-size: 2rem;
+    margin-top: 7rem;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: steelblue;
+    margin-left: 4rem;
+}
+
+.web-page{
+    background-color: bisque;
+}
+.fa{
+    cursor: pointer;
+    color: brown;
+    margin-top: 3rem;
+}
+
+.content{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 992px){
+.matrimony-image{
+       display: flex;
+
+    }
+}

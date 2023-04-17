@@ -1,0 +1,38 @@
+<div class="col-lg-12 container web-page" >
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="row">
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="row" *ngFor="let x of store; let i = index">
+          <div class="card picture " style="width:230px;height: 32rem !important; ">
+            <img class="card-img-top "  [src]="x.img" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title fw-30">{{x.name}}</h4>
+              <p class="card-text ">{{x.about}}</p>
+              <div class="d-flex">
+                <div class="mr-2">
+                  <button (click) = "removeImage(i)" class='bi bi-check btn btn-warning btn-sty'></button>
+                </div>
+                <div>
+                  <button (click) = "removeImage(i)"class="bi-x btn btn-warning btnn-sty">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="row">
+          <button (click)="back()" class="btn btn-primary">
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+     
+
